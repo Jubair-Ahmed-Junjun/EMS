@@ -34,3 +34,7 @@ table tr td {
   cursor: pointer;
   color: rgb(245, 239, 234);
 }
+.photo {
+  height: 200px;
+  width: 200px;
+}

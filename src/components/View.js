@@ -32,7 +32,7 @@ const View = (props) => {
                         <td>{view.gender}</td>                 
                         <td>{view.DOB}</td> 
                         <td>{view.hobbies}</td> 
-                        <td>{view.picture}</td>                    
+                        <td><img src ="./image/image.png" className="photo" /></td>                    
                         <td>
                             <button type="button" className="edit" onClick={()=>clickEdit(index)}>Edit</button>
                             <button type="button" className="delete" onClick={()=>clickRemove(index)}>Delete</button>

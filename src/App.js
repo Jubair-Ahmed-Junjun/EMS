@@ -40,6 +40,7 @@ function App() {
 
   const editDataHandler = (e) =>{
     id = e;
+    console.log(id);
     setShowEditEmployee((prevState)=>prevState=true);
   }
 
@@ -59,7 +60,7 @@ function App() {
       
       {showMessage && <div>
         <hr/>
-        <h2>|| Employee delete successsfully! ||</h2>
+        <h2>|| Employee delete successfully! ||</h2>
       </div>}
       
       <hr/>
